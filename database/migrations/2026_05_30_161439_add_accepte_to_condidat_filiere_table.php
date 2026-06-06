@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('candidatures', function (Blueprint $table) {
+        Schema::table('condidat_filiere', function (Blueprint $table) {
             $table->boolean('accepte');
         });
     }

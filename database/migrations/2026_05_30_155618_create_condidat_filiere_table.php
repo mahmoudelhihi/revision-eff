@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('candidatures', function (Blueprint $table) {
+        Schema::create('condidat_filiere', function (Blueprint $table) {
             $table->id();
             $table->date('date');
             $table->float('score');
